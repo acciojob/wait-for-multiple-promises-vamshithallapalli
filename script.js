@@ -3,7 +3,7 @@ function createRandomPromise(promiseNumber){
 	return new Promise((resolve)=>{
 		var time = Math.random()*2+1;
 		setTimeout(()=>{
-			resolve({name: "promise" + promiseNumber, time: time});
+			resolve({name: "Promise" + promiseNumber, time: time});
 		}, time*1000)
 	})
 }
